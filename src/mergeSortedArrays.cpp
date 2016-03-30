@@ -12,9 +12,7 @@ OUTPUT: Combined statement ordered by transaction date.
 ERROR CASES: Return NULL for invalid inputs.
 
 NOTES:
-*/
-
-#include <iostream>
+*/#include <iostream>
 
 struct transaction {
 	int amount;
@@ -25,3 +23,5 @@ struct transaction {
 struct transaction * mergeSortedArrays(struct transaction *A, int ALen, struct transaction *B, int BLen) {
 	return NULL;
 }
+
+
